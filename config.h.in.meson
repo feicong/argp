@@ -1,0 +1,39 @@
+/*
+ * SPDX-FileCopyrightText: 2020 Thomas Mathys
+ * SPDX-License-Identifier: LGPL-2.1-or-later
+ * argp-standalone: standalone version of glibc's argp functions.
+ */
+
+/* Headers */
+#undef HAVE_MEMPCPY_H
+#undef HAVE_STRCASE_H
+#undef HAVE_STRCHRNUL_H
+#undef HAVE_STRNDUP_H
+#undef HAVE_SYSEXITS_H
+#undef HAVE_UNISTD_H
+
+/* Unlocked variants of stdio functions */
+#undef HAVE_DECL_PUTC_UNLOCKED
+#undef HAVE_DECL_FPUTS_UNLOCKED
+#undef HAVE_DECL_FWRITE_UNLOCKED
+
+/* strerror_r and strerror */
+#undef HAVE_STRERROR_R
+#undef HAVE_DECL_STRERROR_R
+#undef HAVE_DECL_STRERROR
+
+/* Miscellaneous functions */
+#undef HAVE_ASPRINTF
+#undef HAVE_MEMPCPY
+#undef HAVE_RANDOM
+#undef HAVE_SLEEP
+#undef HAVE_STRCASECMP
+#undef HAVE_STRCHRNUL
+#undef HAVE_STRNDUP
+
+/* Variables */
+#undef HAVE_DECL_PROGRAM_INVOCATION_SHORT_NAME
+#undef HAVE_DECL_PROGRAM_INVOCATION_NAME
+
+/* Types */
+#undef HAVE_SSIZE_T
